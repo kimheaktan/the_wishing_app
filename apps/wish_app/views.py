@@ -4,7 +4,7 @@ from django.contrib.messages import get_messages
 from apps.wish_app.models import *
 import bcrypt
 
-
+#### github test
 def index(request):
     return render(request, 'wish_app/index.html')
 
